@@ -12,3 +12,5 @@ if __name__ == "__main__":
     num2 = float(sys.argv[2])
     result = multiply(num1, num2)
     print(f"The result is: {result}")
+
+#coba test
