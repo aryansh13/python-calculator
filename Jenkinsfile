@@ -3,10 +3,10 @@ pipeline {
 
     stages {
         stage('Checkout') {
-            steps {
-                git 'https://github.com/aryansh13/python-calculator.git'
-            }
-        }
+    steps {
+        git branch: 'main', url: 'https://github.com/aryansh13/python-calculator.git'
+    }
+}
 
         stage('Test') {
             steps {
